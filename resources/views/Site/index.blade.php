@@ -18,7 +18,7 @@
                 <div class="spacle-responsive-menu">
                     <div class="logo">
                         <a href="index-digital-marketing-agency.html">
-                            <img src="{{asset('site/img/logo.png')}}" alt="logo">
+                            <img src="{{asset('site/img/logo.png')}}" style="max-width:20%" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <a class="navbar-brand" href="index.html">
-                        <img src="{{asset('Site/img/logo.png')}}" alt="logo">
+                        <img src="{{asset('Site/img/logo.png')}}" style="max-width:20%" alt="logo">
                     </a>
 
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
@@ -182,48 +182,57 @@
         </div>
     </section>
     <!-- End Digital Agency Banner -->
-
-    <!-- Start Featured Area -->
-    <section class="featured-area pt-100 pb-70">
+    <div class="features-card-section pt-100 pb-70 bg-f8fbfa">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="single-featured-box">
-                        <img src="{{asset('site/img/marketing-agency/featured-img1.jpg')}}" alt="image">
-                        <h3>معاونت پژوهش</h3>
-                        <a href="#" class="read-more-btn">ادامه خواندن <i class='bx bx-left-arrow-alt'></i></a>
-                        <a href="#" class="link-btn"></a>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <div class="single-features-card tx-center">
+                        <i class='bx bx-conversation'></i>
+                        <h3>
+                            <a href="#">معاونت آموزش</a>
+                        </h3>
+                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="single-featured-box">
-                        <img src="{{asset('site/img/marketing-agency/featured-img2.jpg')}}" alt="image">
-                        <h3>معاونت آموزش</h3>
-                        <a href="#" class="read-more-btn">ادامه خواندن <i class='bx bx-left-arrow-alt'></i></a>
-                        <a href="#" class="link-btn"></a>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="single-features-card tx-center">
+                        <i class='bx bx-laptop'></i>
+                        <h3>
+                            <a href="#">معاونت پژوش</a>
+                        </h3>
+                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="single-featured-box">
-                        <img src="{{asset('site/img/marketing-agency/featured-img3.jpg')}}" alt="image">
-                        <h3>معاونت فرهنگی</h3>
-                        <a href="#" class="read-more-btn">ادامه خواندن <i class='bx bx-left-arrow-alt'></i></a>
-                        <a href="#" class="link-btn"></a>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                    <div class="single-features-card tx-center">
+                        <i class='bx bxs-badge-check'></i>
+                        <h3>
+                            <a href="#">معاونت فرهنگ</a>
+                        </h3>
+                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="single-features-card tx-center">
+                        <i class='bx bxs-megaphone'></i>
+                        <h3>
+                            <a href="#">مرکز مشاوره</a>
+                        </h3>
+                        <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- End Featured Area -->
+    </div>
 
     <!-- Start Services Area -->
     <section class="services-area ptb-100">
         <div class="container">
             <div class="section-title text-left">
-                <span class="sub-title">خدمات</span>
-                <h2>قسمت های مختلف حوزه</h2>
+                <h2>نشست های دوره ای</h2>
             </div>
 
             <div class="row">
@@ -232,9 +241,9 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">بازاریابی رسانه اجتماعی</a></h3>
+                                    <h3><a href="single-service.html">نشست خانواده و تربیت</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه خواندن <i class='bx bx-left-arrow-alt'></i></a>
+                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
 
@@ -252,9 +261,9 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">بهینه سازی محتوا</a></h3>
+                                    <h3><a href="single-service.html">نشست مهدویت و رسانه</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه خواندن <i class='bx bx-left-arrow-alt'></i></a>
+                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
 
@@ -272,9 +281,9 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">آنالیز پیشرفته</a></h3>
+                                    <h3><a href="single-service.html">نشست حجاب و عفاف</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه خواندن <i class='bx bx-left-arrow-alt'></i></a>
+                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
 
@@ -292,9 +301,9 @@
                         <div class="row m-0">
                             <div class="col-lg-6 col-md-12 p-0">
                                 <div class="content">
-                                    <h3><a href="single-service.html">بازاریابی ایمیل</a></h3>
+                                    <h3><a href="single-service.html">نشست امام شناسی</a></h3>
                                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
-                                    <a href="single-service.html" class="read-more-btn">ادامه خواندن <i class='bx bx-left-arrow-alt'></i></a>
+                                    <a href="single-service.html" class="read-more-btn">ادامه مطلب <i class='bx bx-left-arrow-alt'></i></a>
                                 </div>
                             </div>
 
@@ -394,52 +403,25 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="section-title text-left">
-                        <h2>نشست های برگزار شده</h2>
+                        <h2>آیات و روایات</h2>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-12">
                     <div class="testimonials-slides-two owl-carousel owl-theme">
                         <div class="single-testimonials-box">
-                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
-
-                            <div class="client-info">
-                                <div class="d-flex align-items-center">
-                                    <img src="{{asset('site/img/user1.jpg')}}" alt="image">
-                                    <div class="title">
-                                        <h3>جان اسمیت</h3>
-                                        <span>توسعه دهنده پایتون</span>
-                                    </div>
-                                </div>
-                            </div>
+                            <p>رسول اللّه(ص) : ما وَرَّثَ والِدٌ وَلَدَهُ أفضَلَ مِن أدَبٍ.</p>
+                            <p>پیامبر خدا(ص): هیچ پدری، میراثی برتر از ادب به فرزندش نداده است.</p>
                         </div>
 
                         <div class="single-testimonials-box">
-                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
-
-                            <div class="client-info">
-                                <div class="d-flex align-items-center">
-                                    <img src="{{asset('site/img/user2.jpg')}}" alt="image">
-                                    <div class="title">
-                                        <h3>جان اسمیت</h3>
-                                        <span>توسعه دهنده پایتون</span>
-                                    </div>
-                                </div>
-                            </div>
+                            <p>رسول اللّه(ص) : لا تُحَقِّرَنَّ أحَدا مِنَ المُسلِمینَ، فَإِنَّ صَغیرَهُم عِندَ اللّهِ کبیرٌ.</p>
+                            <p>پیامبر خدا(ص): هرگز هیچ یک از مسلمانان را کوچک مشمار؛ زیرا کوچک آنان نیز، در نزد خداوند، بزرگ است.</p>
                         </div>
 
                         <div class="single-testimonials-box">
-                            <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
-
-                            <div class="client-info">
-                                <div class="d-flex align-items-center">
-                                    <img src="{{asset('site/img/user3.jpg')}}" alt="image">
-                                    <div class="title">
-                                        <h3>جان اسمیت</h3>
-                                        <span>توسعه دهنده پایتون</span>
-                                    </div>
-                                </div>
-                            </div>
+                            <p>رسول اللّه(ص) : أعدَلُ النّاسِ مَن رَضِی لِلنّاسِ ما یرضی لِنَفسِهِ، وکرِهَ لَهُم ما یکرَهُ لِنَفسِهِ.</p>
+                            <p>پیامبر خدا(ص): عادل ترینِ مردم، کسی است که برای مردم، آن چیزی را می پسندد که برای خود می پسندد، و برای آنها خوش ندارد، آنچه را برای خود خوش ندارد.</p>
                         </div>
                     </div>
                 </div>
@@ -454,37 +436,37 @@
             <div class="row align-items-center">
                 <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".2s">
                     <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/img1.png')}}" alt="image">
+                        <img src="{{asset('site/img/partner-image/1.png')}}" alt="image">
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".3s">
                     <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/img2.png')}}" alt="image">
+                        <img src="{{asset('site/img/partner-image/2.png')}}" alt="image">
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/img3.png')}}" alt="image">
+                        <img src="{{asset('site/img/partner-image/3.png')}}" alt="image">
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/img4.png')}}" alt="image">
+                        <img src="{{asset('site/img/partner-image/4.png')}}" alt="image">
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".6s">
                     <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/img5.png')}}" alt="image">
+                        <img src="{{asset('site/img/partner-image/1.png')}}" alt="image">
                     </div>
                 </div>
 
                 <div class="col-lg-2 col-6 col-sm-3 col-md-4 wow fadeInUp" data-wow-delay=".7s">
                     <div class="single-partner-box">
-                        <img src="{{asset('site/img/partner-image/img6.png')}}" alt="image">
+                        <img src="{{asset('site/img/partner-image/2.png')}}" alt="image">
                     </div>
                 </div>
             </div>
@@ -496,29 +478,28 @@
     <section class="blog-area pt-100 pb-70 bg-f4e9da">
         <div class="container">
             <div class="section-title text-left">
-                <h2>اخبار و رویداد</h2>
+                <h2>اخبار حوزه</h2>
             </div>
 
             <div class="blog-slides owl-carousel owl-theme">
                 <div class="single-blog-post-item">
                     <div class="post-image">
                         <a href="#" class="d-block">
-                            <img src="{{asset('site/img/blog-image/10.jpg')}}" alt="image">
+                            <img src="{{asset('site/img/blog-image/1.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">آموزش</a>
-                        <h3><a href="#">پذیرش در دانشگاه می تواند با کنترل اضطراری روبرو شود</a></h3>
+                        <a href="#" class="category">کلاس اخلاق</a>
+                        <h3><a href="#">دوره اخلاق و تربیت</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
-                                    <img src="{{asset('site/img/author-image/9.jpg')}}" class="rounded-circle" alt="image">
-                                    <span>الکس مورگان</span>
+
                                 </div>
                             </li>
                             <li>
-                                <i class='bx bx-calendar'></i> 30 دی 1398
+                                <i class='bx bx-calendar'></i> 30 دی 1403
                             </li>
                         </ul>
                     </div>
@@ -527,22 +508,21 @@
                 <div class="single-blog-post-item">
                     <div class="post-image">
                         <a href="#" class="d-block">
-                            <img src="{{asset('site/img/blog-image/11.jpg')}}" alt="image">
+                            <img src="{{asset('site/img/blog-image/2.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">سئو</a>
-                        <h3><a href="#">پذیرش در دانشگاه می تواند با کنترل اضطراری روبرو شود</a></h3>
+                        <a href="#" class="category">ادب اجتماعی</a>
+                        <h3><a href="#">دوره اداب اجتماعی فردی</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
-                                    <img src="{{asset('site/img/author-image/8.jpg')}}" class="rounded-circle" alt="image">
-                                    <span>الکس مورگان</span>
+
                                 </div>
                             </li>
                             <li>
-                                <i class='bx bx-calendar'></i> 30 دی 1398
+                                <i class='bx bx-calendar'></i> 30 دی 1403
                             </li>
                         </ul>
                     </div>
@@ -551,22 +531,21 @@
                 <div class="single-blog-post-item">
                     <div class="post-image">
                         <a href="#" class="d-block">
-                            <img src="{{asset('site/img/blog-image/12.jpg')}}" alt="image">
+                            <img src="{{asset('site/img/blog-image/3.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">تجارت</a>
-                        <h3><a href="#">پذیرش در دانشگاه می تواند با کنترل اضطراری روبرو شود</a></h3>
+                        <a href="#" class="category">اقتصاد اسلامی</a>
+                        <h3><a href="#">دوره اقتصاد با محوریت اسلام</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
-                                    <img src="{{asset('site/img/author-image/7.jpg')}}" class="rounded-circle" alt="image">
-                                    <span>الکس مورگان</span>
+
                                 </div>
                             </li>
                             <li>
-                                <i class='bx bx-calendar'></i> 30 دی 1398
+                                <i class='bx bx-calendar'></i> 30 دی 1403
                             </li>
                         </ul>
                     </div>
@@ -575,22 +554,21 @@
                 <div class="single-blog-post-item">
                     <div class="post-image">
                         <a href="#" class="d-block">
-                            <img src="{{asset('site/img/blog-image/13.jpg')}}" alt="image">
+                            <img src="{{asset('site/img/blog-image/2.jpg')}}" alt="image">
                         </a>
                     </div>
 
                     <div class="post-content">
-                        <a href="#" class="category">آموزش</a>
-                        <h3><a href="#">پذیرش در دانشگاه می تواند با کنترل اضطراری روبرو شود</a></h3>
+                        <a href="#" class="category">تفسیر قرآن</a>
+                        <h3><a href="#">دوره تفسیر قرآن کریم</a></h3>
                         <ul class="post-content-footer d-flex justify-content-between align-items-center">
                             <li>
                                 <div class="post-author d-flex align-items-center">
-                                    <img src="{{asset('site/img/author-image/6.jpg')}}" class="rounded-circle" alt="image">
-                                    <span>الکس مورگان</span>
+
                                 </div>
                             </li>
                             <li>
-                                <i class='bx bx-calendar'></i> 30 دی 1398
+                                <i class='bx bx-calendar'></i> 30 دی 1403
                             </li>
                         </ul>
                     </div>
@@ -601,17 +579,17 @@
     <!-- End Blog Area -->
 
     <!-- Start Company Preview Area -->
-    <div class="company-preview-area">
+    <div>
         <div class="container">
             <div class="company-preview-video">
-                <a href="https://www.youtube.com/watch?v=0gv7OC9L2s8" class="video-btn popup-youtube"><i class="bx bx-play"></i></a>
-            </div>
+                <style>.h_iframe-aparat_embed_frame{position:relative;}.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}</style><div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/V7WI3/vt/frame?titleShow=true&recom=self"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>            </div>
         </div>
     </div>
+
     <!-- End Company Preview Area -->
 
     <!-- Start Let's Talk Area -->
-    <section class="lets-talk-area ptb-100">
+    <section class="lets-talk-area ptb-100 bg-f8fbfa">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8 col-md-12">
@@ -621,7 +599,6 @@
                         <p class="wow fadeInUp">لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
                     </div>
                 </div>
-
                 <div class="col-lg-4 col-md-12 wow fadeInRight" data-wow-delay=".2s">
                 </div>
             </div>

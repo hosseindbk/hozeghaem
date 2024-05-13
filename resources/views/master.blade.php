@@ -73,9 +73,10 @@
                     <h3>اطلاعات تماس</h3>
 
                     <ul class="footer-contact-info">
-                        <li>موقعیت: <a href="https://goo.gl/maps/MQ78iGP5g9VgZcJ38" target="_blank">تهران، چیذر، خیابان علمیه، موسسه شجره طیبه</a></li>
-                        <li>ایمیل: <a href="mailto:hello@spacle.com">info@shajare.ir</a></li>
-                        <li>تلفن: <a href="tel:021-12345678">021-12345678</a></li>
+                        <li>موقعیت: <a href="https://goo.gl/maps/MQ78iGP5g9VgZcJ38" target="_blank">تهران، شمیران، چیذر، خیابان شهید افشین محمودیان، کوی علمیه خواهران</a></li>
+                        <li>ایمیل: <a href="mailto:hello@spacle.com">info@hozehghaem.ir</a></li>
+                        <li>تلفن: <a href="tel:021-12345678">021-22203301</a></li>
+                        <li>تلفن: <a href="tel:021-12345678">021-22211382</a></li>
                     </ul>
                     <ul class="social">
                         <li><a href="#" target="_blank"><i class="bx bxl-facebook"></i></a></li>

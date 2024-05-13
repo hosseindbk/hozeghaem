@@ -64,9 +64,16 @@
 }
 
 @font-face {
-  font-family: Vazirmatn RD FD;
-  src: url('../fonts/webfonts/Vazirmatn-RD-FD-Black.woff2') format('woff2');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
+    font-family: Vazirmatn RD FD;
+    src: url('../fonts/webfonts/Vazirmatn-RD-FD-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Mehr Nastaliq Web";
+    src: url('../fonts/MehrNastaliqWebversion1.0beta.ttf') format('ttf');
+    font-style: normal;
+    font-display: swap;
 }
