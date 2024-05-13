@@ -37,7 +37,7 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-footer-widget">
                     <div class="logo">
-                        <a href="index.html"><img src="{{asset('Site/img/white-logo.png')}}" alt="image"></a>
+                        <a href="index.html"><img src="{{asset('Site/img/logo.png')}}" alt="image"></a>
                     </div>
                     <p>لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است. لورم ایپسوم به سادگی ساختار چاپ و متن را در بر می گیرد. لورم ایپسوم به مدت 40 سال استاندارد صنعت بوده است.</p>
                 </div>
